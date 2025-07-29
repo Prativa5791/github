@@ -1,4 +1,10 @@
 hello world
 git init 
 git add tst.txt
-git commit-m "first"
+git commit-m "first"? version 1
+//
+add content ?//
+//
+git add .
+git status 
+git commit -m "git added" ? version 2
