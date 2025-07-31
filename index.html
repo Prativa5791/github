@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Task Form</title>
+    
+</head>
+<body>
+    <h1>Add New To-Do Task</h1>
+    <form action="/submit-task" method="POST">
+        <div class="form-group">
+            <label for="task-title">Your Task</label>
+            <input type="text" id="task-title" name="task-title" required placeholder="Enter task title">
+        </div>
+        
+        <button type="submit">Add Task</button>
+    </form>
+</body>
+</html>
