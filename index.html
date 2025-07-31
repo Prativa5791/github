@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do Task Form</title>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Add New To-Do Task</h1>
-    <form action="/submit-task" method="POST">
+    <form id="todo-form">
         <div class="form-group">
             <label for="task-title">Your Task</label>
             <input type="text" id="task-title" name="task-title" required placeholder="Enter task title">
         </div>
-        
-        <button type="Submit">Add Task</button>
+        <button type="submit">Add Task</button>
     </form>
+    
+    <div id="task-list"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
